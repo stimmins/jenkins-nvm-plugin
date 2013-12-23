@@ -1,7 +1,7 @@
 Jenkins::Plugin::Specification.new do |plugin|
   plugin.name = 'nvm'
   plugin.display_name = 'nvm Build Environment' 
-  plugin.version = '0.2'
+  plugin.version = '0.2.1'
   plugin.description = 'Run Jenkins builds in nvm environment'
 
   plugin.url = 'https://wiki.jenkins-ci.org/display/JENKINS/NVM+Plugin'
