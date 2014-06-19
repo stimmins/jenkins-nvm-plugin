@@ -9,12 +9,12 @@
 
 source 'https://rubygems.org'
 
-ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.4'
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.12'
 
 gem 'rubyzip', '< 1.0.0'
 
-gem 'jenkins-plugin-runtime', '~> 0.2.2'
+gem 'jenkins-plugin-runtime', '~> 0.2.3'
 
 group :development do
-  gem 'jpi', '~> 0.3.7'
+  gem 'jpi', '~> 0.3.8'
 end

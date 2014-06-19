@@ -1,6 +1,6 @@
 <%
 f = taglib("/lib/form")
-f.entry(:title => 'Version', :field => 'version', :description => "For example 'v0.6.16'") do
-  f.textbox
+f.entry(:title => 'Version', :field => 'version', :description => "For example 'v0.6.16'. Alternatively, use '' to load from .nvmrc, etc.") do
+  f.textbox(:default => '')
 end
 %>

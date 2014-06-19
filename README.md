@@ -1,8 +1,8 @@
-# Jenkins nvm Plugin
+# Jenkins NVM Plugin
 
 [github.com/codevise/jenkins-nvm-plugin](https://github.com/codevise/jenkins-nvm-plugin/)
 
-A Jenkins Plugin to run builds in an [nvm](https://github.com/creationix/nvm) managed environment.
+A Jenkins Plugin to run builds in an [NVM](https://github.com/creationix/nvm) managed environment.
 
 ## Dependencies
 
